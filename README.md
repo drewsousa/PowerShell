@@ -1,7 +1,7 @@
 ![PowerShell](https://wracked.com/img/PowerShell-evil.png)
 
 ## PowerShell Auditing and Test Scripts
-### Uploads of mostly simple and sanitized PowerShell scripts for **auditing**, **testing**, and **insights** into AD and organizations
+### Uploads of mostly simple and sanitized PowerShell scripts for **auditing**, **testing**, and gaining **insights** into AD and organizations
 
 ---
 - [ ] Powershell_AD_Audit_Export_SGs_to_CSV.ps1:  
@@ -19,7 +19,7 @@ This is a simple Date and Time function that can be pulled into other scripts ea
 When you're doing a hands-on audit and you need to verify antimalware is running, test alert functions to the SOC or even use as a simple test to verify outbound firewall rules are blocking traffic to the internet. If there is internet access this will pull down a harmless EICAR file that should get caught by antimalware and create a trigger notification for the SOC. If all goes well an alert should also be generated somebody is on a production server running PowerShell. Includes is a few different PowerShell methods as well as links to different file types are provided.  
 
 - [ ] Powershell_password_audits.ps1:  
-These simple queries will help shine a light on all kinds of organizational problems. Passwords not reset, passwords set to never expire, passwords older than X days. Pay special attention to priveledged accounts like Super Admins (SA's) and leadership folks who may have twisted somebody's arm to override a company policy. I've added a few queries for Country, Department, Offices, etc so they can been narrowed down. Don't forget Vendors. Seems teams love to give out a Vendor account that never expires.  =)
+These simple queries will help shine a light on all kinds of organizational problems. Passwords not reset, passwords set to never expire, passwords older than X days. Pay special attention to privileged accounts like Super Admins (SA's) and leadership folks who may have twisted somebody's arm to override a company policy. I've added a few queries for Country, Department, Offices, etc so they can been narrowed down. Don't forget Vendors. Seems teams love to give out a Vendor account that never expires.  =)
 
 - [ ] Powershell_query_privileged_groups.ps1:  
 PowerShell AD queries to pull out list of potentially privileged Groups

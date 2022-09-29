@@ -1,4 +1,4 @@
-## PowerShell Scripts
+## PowerShell Auditing and Test Scripts
 ### Uploads of mostly simple and sanitized PowerShell scripts for **auditing**, **testing**, and **insights** into AD and organizations
 
 ---

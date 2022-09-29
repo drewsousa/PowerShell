@@ -7,7 +7,7 @@
 - [ ] Powershell_AD_Audit_Export_SGs_to_CSV.ps1:  
 Dump Security Groups to CSV with ISO friendly date formatted into output file
 
-- [ ] Powershell_Conver_IP_to_Hostname.pst:  
+- [ ] Powershell_Conver_IP_to_Hostname.ps1:  
 Some security tools will report back a list of hosts and vulnerabilities with just IP addresses.
 Often times folks would push back so I wrote this to use query local DNS resolver to and output to names. 
 Easy to tweak and use for other items when you just have a list of IP's you need to get hostnames out of. 

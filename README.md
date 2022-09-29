@@ -1,7 +1,6 @@
 ![PowerShell](https://wracked.com/img/github/PowerShell-evil.gif)
 
-## PowerShell Auditing and Test Scripts
-### PowerShell scripts for **auditing**, **testing**, and gaining **insights** into AD and Orgs
+### PowerShell scripts for **auditing**, **testing**, and **insights** into AD and Orgs
 
 ---
 <kbd>>_</kbd> Powershell_AD_Audit_Export_SGs_to_CSV.ps1:  
@@ -13,7 +12,7 @@ Often times folks would push back so I wrote this to use query local DNS resolve
 Easy to tweak and use for other items when you just have a list of IP's you need to get hostnames out of. 
 
 <kbd>>_</kbd>  Powershell_Date_ISO_Format.ps1:  
-This is a simple Date and Time function that can be pulled into other scripts easily. It supports UTC and easy to modify time templates. I set to use ISO standards.
+This is a simple Date and Time function that can be pulled into other scripts easily. It supports UTC and easy to modify time templates. I set it to use ISO standards.
 
 <kbd>>_</kbd> PowerShell_malware_windows_test01.ps1:  
 When you're doing a hands-on audit and you need to verify antimalware is running, test alert functions to the SOC or even use as a simple test to verify outbound firewall rules are blocking traffic to the internet. If there is internet access this will pull down a harmless EICAR file that should get caught by antimalware and create a trigger notification for the SOC. If all goes well an alert should also be generated somebody is on a production server running PowerShell. Includes is a few different PowerShell methods as well as links to different file types are provided.  

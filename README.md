@@ -2,8 +2,6 @@
 
 ### PowerShell scripts for **auditing**, **testing**, and **insights** into AD and Orgs
 
-![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
-
 ---
 <kbd>>_</kbd> Powershell_AD_Audit_Export_SGs_to_CSV.ps1:  
 Dump Security Groups to CSV with ISO friendly date formatted into output file

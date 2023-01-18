@@ -1,8 +1,9 @@
-# DFS 
-# Some security tools will just report back IP addresses for Hosts. 
-# Simple tool to ping and log hostnames
+# Drew F. Sousa
+# Some security tools will just report back IP addresses when you'd really like a list of hostnames from DNS. 
+# This script will ping a list of IPs and output a list of hostnames
 
-$YourListOfIPs = Get-Content '\path_to_your_files\YourListOfIPs.txt
+$YourListOfIPs = Get-Content '\path_to_your_files\YourListOfIPs.txt'
+
 $responseList = @()
     # Ping each IP and get a HostName
     foreach ($ip in $YourListOfIPs)
